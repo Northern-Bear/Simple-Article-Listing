@@ -5,14 +5,22 @@
 }
 
 body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-family: "Poppins", serif;
   background-color: #f8fafc;
 }
 
 .header-container {
+  text-align: center;
+  width: 80%;
+  height: 30%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 h1 {
@@ -26,10 +34,12 @@ svg {
 }
 
 .article-container {
+  width: 90%;
   display: flex;
 }
 
 .article-title-container {
+  padding: 1rem 3rem;
   display: flex;
   flex-direction: column;
 }
