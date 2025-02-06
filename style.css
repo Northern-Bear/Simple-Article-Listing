@@ -73,3 +73,19 @@ svg {
   font-size: 0.875rem;
   color: #4d5562;
 }
+
+@media (max-width:800px ) {
+
+  html {
+    font-size: 14px;
+  }
+
+  .header-container {
+    width: 90%;
+  }
+
+  .article-container {
+    width: 90%;
+  }
+  
+}
