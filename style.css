@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", serif;
+  background-color: #f8fafc;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 2.25rem;
+  color: #000000;
+}
+
+svg {
+  color: #d9d9d9;
+}
+
+.article-container {
+  display: flex;
+}
+
+.article-title-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.article-title {
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #000000;
+}
+
+.article-date {
+  font-weight: 500;
+  font-size: 0.875rem;
+  color: #4d5562;
+}
